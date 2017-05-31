@@ -23,7 +23,11 @@ public class JavaZalProject {
 	
 	private String startGry = "X";
 	private int licznikX = 0;
-	private int licznikY = 0;
+	private int licznikO = 0;
+
+	private JLabel lblWynikO;
+
+	private JLabel lblWynikX;
 	
 
 	/**
@@ -45,10 +49,30 @@ public class JavaZalProject {
 	/**
 	 * Create the application.
 	 */
-	public JavaZalProject() {
+	public JavaZalProject() 
+	{
 		initialize();
+		wynikGry();
+	}
+	
+	private void wynikGry()
+	{
+		lblWynikO.setText(String.valueOf(licznikO));
+		lblWynikX.setText(String.valueOf(licznikX));
 	}
 
+	private void wybierzGracza()
+	{
+		if(startGry.equalsIgnoreCase("X"))
+		{
+			startGry="0";
+		}
+		else
+		{
+			startGry="X";
+		}
+	}
+	
 	/**
 	 * Initialize the contents of the frame.
 	 */
@@ -73,6 +97,16 @@ public class JavaZalProject {
 		btn1.setFont(new Font("Tahoma", Font.BOLD, 99));
 		btn1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
+				btn1.setText(startGry);
+				if(startGry.equalsIgnoreCase("X"))
+				{
+					btn1.setForeground(Color.RED);
+				}
+				else
+				{
+					btn1.setForeground(Color.BLUE);
+				}
+				wybierzGracza();
 			}
 		});
 		panel_1.add(btn1, BorderLayout.CENTER);
