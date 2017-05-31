@@ -16,6 +16,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.SwingConstants;
 import java.awt.Font;
+import javax.swing.JTextField;
 
 public class JavaZalProject {
 
@@ -26,6 +27,8 @@ public class JavaZalProject {
 	private int licznikX = 0, licznikO = 0;
 	private JLabel lblWynikO , lblWynikX;
 	private JLabel btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9;
+	private JTextField textField;
+	private JTextField textField_1;
 	
 
 	/**
@@ -430,19 +433,24 @@ public class JavaZalProject {
 		panel.add(panel_11);
 		panel_11.setLayout(new BorderLayout(0, 0));
 		
-		JLabel lblWynikO = new JLabel("0");
-		lblWynikO.setHorizontalAlignment(SwingConstants.CENTER);
-		lblWynikO.setFont(new Font("Tahoma", Font.BOLD, 30));
-		panel_11.add(lblWynikO, BorderLayout.WEST);
-		
-		JLabel lblWynikX = new JLabel("0");
-		lblWynikX.setFont(new Font("Tahoma", Font.BOLD, 30));
-		panel_11.add(lblWynikX, BorderLayout.EAST);
-		
 		JLabel label = new JLabel(":");
 		label.setFont(new Font("Tahoma", Font.BOLD, 30));
 		label.setHorizontalAlignment(SwingConstants.CENTER);
 		panel_11.add(label, BorderLayout.CENTER);
+		
+		textField = new JTextField();
+		textField.setHorizontalAlignment(SwingConstants.LEFT);
+		textField.setText("0");
+		textField.setFont(new Font("Tahoma", Font.BOLD, 40));
+		panel_11.add(textField, BorderLayout.WEST);
+		textField.setColumns(10);
+		
+		textField_1 = new JTextField();
+		textField_1.setHorizontalAlignment(SwingConstants.RIGHT);
+		textField_1.setText("0");
+		textField_1.setFont(new Font("Tahoma", Font.BOLD, 40));
+		panel_11.add(textField_1, BorderLayout.EAST);
+		textField_1.setColumns(10);
 		
 		JPanel panel_12 = new JPanel();
 		panel.add(panel_12);
