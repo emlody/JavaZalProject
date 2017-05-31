@@ -145,7 +145,6 @@ public class JavaZalProject {
 		panel_9.add(btn9, BorderLayout.CENTER);
 		
 		JPanel panel_10 = new JPanel();
-		panel_10.setBorder(new LineBorder(new Color(0, 0, 0), 2, true));
 		panel.add(panel_10);
 		panel_10.setLayout(new BorderLayout(0, 0));
 		
@@ -155,7 +154,6 @@ public class JavaZalProject {
 		panel_10.add(lblGraczO, BorderLayout.CENTER);
 		
 		JPanel panel_11 = new JPanel();
-		panel_11.setBorder(new LineBorder(new Color(0, 0, 0), 2, true));
 		panel.add(panel_11);
 		panel_11.setLayout(new BorderLayout(0, 0));
 		
@@ -174,7 +172,6 @@ public class JavaZalProject {
 		panel_11.add(label, BorderLayout.CENTER);
 		
 		JPanel panel_12 = new JPanel();
-		panel_12.setBorder(new LineBorder(new Color(0, 0, 0), 2, true));
 		panel.add(panel_12);
 		panel_12.setLayout(new BorderLayout(0, 0));
 		
