@@ -83,11 +83,107 @@ public class JavaZalProject {
 		String b8 = btn8.getText();
 		String b9 = btn9.getText();
 		
+		////////////////Warunek dla X/////////////////////
 		if (b1 == "X" && b2 =="X" && b3 == "X")
 		{
 			JOptionPane.showMessageDialog(frame, "Gracz X wygrywa !","Kólko i krzy¿yk",JOptionPane.INFORMATION_MESSAGE);
 			licznikX++;
+			wynikGry();
 		}
+		if (b4 == "X" && b5 =="X" && b6 == "X")
+		{
+			JOptionPane.showMessageDialog(frame, "Gracz X wygrywa !","Kólko i krzy¿yk",JOptionPane.INFORMATION_MESSAGE);
+			licznikX++;
+			wynikGry();
+		}
+		if (b7 == "X" && b8 =="X" && b9 == "X")
+		{
+			JOptionPane.showMessageDialog(frame, "Gracz X wygrywa !","Kólko i krzy¿yk",JOptionPane.INFORMATION_MESSAGE);
+			licznikX++;
+			wynikGry();
+		}
+		if (b1 == "X" && b4 =="X" && b7 == "X")
+		{
+			JOptionPane.showMessageDialog(frame, "Gracz X wygrywa !","Kólko i krzy¿yk",JOptionPane.INFORMATION_MESSAGE);
+			licznikX++;
+			wynikGry();
+		}
+		if (b2 == "X" && b5 =="X" && b8 == "X")
+		{
+			JOptionPane.showMessageDialog(frame, "Gracz X wygrywa !","Kólko i krzy¿yk",JOptionPane.INFORMATION_MESSAGE);
+			licznikX++;
+			wynikGry();
+		}
+		if (b3 == "X" && b6 =="X" && b9 == "X")
+		{
+			JOptionPane.showMessageDialog(frame, "Gracz X wygrywa !","Kólko i krzy¿yk",JOptionPane.INFORMATION_MESSAGE);
+			licznikX++;
+			wynikGry();
+		}
+		if (b1 == "X" && b5 =="X" && b9 == "X")
+		{
+			JOptionPane.showMessageDialog(frame, "Gracz X wygrywa !","Kólko i krzy¿yk",JOptionPane.INFORMATION_MESSAGE);
+			licznikX++;
+			wynikGry();
+		}
+		if (b3 == "X" && b5 =="X" && b7 == "X")
+		{
+			JOptionPane.showMessageDialog(frame, "Gracz X wygrywa !","Kólko i krzy¿yk",JOptionPane.INFORMATION_MESSAGE);
+			licznikX++;
+			wynikGry();
+		}
+		////////////////Warunek dla O/////////////////////
+		if (b1 == "O" && b2 =="O" && b3 == "O")
+		{
+			JOptionPane.showMessageDialog(frame, "Gracz X wygrywa !","Kólko i krzy¿yk",JOptionPane.INFORMATION_MESSAGE);
+			licznikO++;
+			wynikGry();
+		}
+		if (b4 == "O" && b5 =="O" && b6 == "O")
+		{
+			JOptionPane.showMessageDialog(frame, "Gracz X wygrywa !","Kólko i krzy¿yk",JOptionPane.INFORMATION_MESSAGE);
+			licznikO++;
+			wynikGry();
+		}
+		if (b7 == "O" && b8 =="O" && b9 == "O")
+		{
+			JOptionPane.showMessageDialog(frame, "Gracz X wygrywa !","Kólko i krzy¿yk",JOptionPane.INFORMATION_MESSAGE);
+			licznikO++;
+			wynikGry();
+		}
+		if (b1 == "O" && b4 =="O" && b7 == "O")
+		{
+			JOptionPane.showMessageDialog(frame, "Gracz X wygrywa !","Kólko i krzy¿yk",JOptionPane.INFORMATION_MESSAGE);
+			licznikO++;
+			wynikGry();
+		}
+		if (b2 == "O" && b5 =="O" && b8 == "O")
+		{
+			JOptionPane.showMessageDialog(frame, "Gracz X wygrywa !","Kólko i krzy¿yk",JOptionPane.INFORMATION_MESSAGE);
+			licznikO++;
+			wynikGry();
+		}
+		if (b3 == "O" && b6 =="O" && b9 == "O")
+		{
+			JOptionPane.showMessageDialog(frame, "Gracz X wygrywa !","Kólko i krzy¿yk",JOptionPane.INFORMATION_MESSAGE);
+			licznikO++;
+			wynikGry();
+		}
+		if (b1 == "O" && b5 =="O" && b9 == "O")
+		{
+			JOptionPane.showMessageDialog(frame, "Gracz X wygrywa !","Kólko i krzy¿yk",JOptionPane.INFORMATION_MESSAGE);
+			licznikO++;
+			wynikGry();
+		}
+		if (b3 == "O" && b5 =="O" && b7 == "O")
+		{
+			JOptionPane.showMessageDialog(frame, "Gracz X wygrywa !","Kólko i krzy¿yk",JOptionPane.INFORMATION_MESSAGE);
+			licznikO++;
+			wynikGry();
+		}
+		
+		
+		
 	}
 	
 	/**
@@ -124,6 +220,7 @@ public class JavaZalProject {
 					btn1.setForeground(Color.BLUE);
 				}
 				wybierzGracza();
+				wygranaGra();
 			}
 		});
 		panel_1.add(btn1, BorderLayout.CENTER);
@@ -146,6 +243,7 @@ public class JavaZalProject {
 					btn2.setForeground(Color.BLUE);
 				}
 				wybierzGracza();
+				wygranaGra();
 			}
 		});
 		btn2.setFont(new Font("Tahoma", Font.BOLD, 99));
@@ -169,6 +267,7 @@ public class JavaZalProject {
 					btn3.setForeground(Color.BLUE);
 				}
 				wybierzGracza();
+				wygranaGra();
 			}
 		});
 		btn3.setFont(new Font("Tahoma", Font.BOLD, 99));
@@ -192,6 +291,7 @@ public class JavaZalProject {
 					btn4.setForeground(Color.BLUE);
 				}
 				wybierzGracza();
+				wygranaGra();
 			}
 		});
 		btn4.setFont(new Font("Tahoma", Font.BOLD, 99));
@@ -215,6 +315,7 @@ public class JavaZalProject {
 					btn5.setForeground(Color.BLUE);
 				}
 				wybierzGracza();
+				wygranaGra();
 			}
 		});
 		btn5.setFont(new Font("Tahoma", Font.BOLD, 99));
@@ -238,6 +339,7 @@ public class JavaZalProject {
 					btn6.setForeground(Color.BLUE);
 				}
 				wybierzGracza();
+				wygranaGra();
 			}
 		});
 		btn6.setFont(new Font("Tahoma", Font.BOLD, 99));
@@ -261,6 +363,7 @@ public class JavaZalProject {
 					btn7.setForeground(Color.BLUE);
 				}
 				wybierzGracza();
+				wygranaGra();
 			}
 		});
 		btn7.setFont(new Font("Tahoma", Font.BOLD, 99));
@@ -284,6 +387,7 @@ public class JavaZalProject {
 					btn8.setForeground(Color.BLUE);
 				}
 				wybierzGracza();
+				wygranaGra();
 			}
 		});
 		btn8.setFont(new Font("Tahoma", Font.BOLD, 99));
@@ -307,6 +411,7 @@ public class JavaZalProject {
 					btn9.setForeground(Color.BLUE);
 				}
 				wybierzGracza();
+				wygranaGra();
 			}
 		});
 		btn9.setFont(new Font("Tahoma", Font.BOLD, 99));
