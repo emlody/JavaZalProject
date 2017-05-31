@@ -54,48 +54,48 @@ public class JavaZalProject {
 		panel.setLayout(new GridLayout(5, 3, 2, 2));
 		
 		JPanel panel_1 = new JPanel();
-		panel_1.setBorder(new LineBorder(new Color(0, 0, 0), 2, true));
+		panel_1.setBorder(new LineBorder(new Color(0, 0, 0), 5, true));
 		panel.add(panel_1);
 		panel_1.setLayout(new BorderLayout(0, 0));
 		
 		JPanel panel_2 = new JPanel();
-		panel_2.setBorder(new LineBorder(new Color(0, 0, 0), 2, true));
+		panel_2.setBorder(new LineBorder(new Color(0, 0, 0), 5, true));
 		panel.add(panel_2);
 		panel_2.setLayout(new BorderLayout(0, 0));
 		
 		JPanel panel_3 = new JPanel();
-		panel_3.setBorder(new LineBorder(new Color(0, 0, 0), 2, true));
+		panel_3.setBorder(new LineBorder(new Color(0, 0, 0), 5, true));
 		panel.add(panel_3);
 		panel_3.setLayout(new BorderLayout(0, 0));
 		
 		JPanel panel_4 = new JPanel();
-		panel_4.setBorder(new LineBorder(new Color(0, 0, 0), 2, true));
+		panel_4.setBorder(new LineBorder(new Color(0, 0, 0), 5, true));
 		panel.add(panel_4);
 		panel_4.setLayout(new BorderLayout(0, 0));
 		
 		JPanel panel_5 = new JPanel();
-		panel_5.setBorder(new LineBorder(new Color(0, 0, 0), 2, true));
+		panel_5.setBorder(new LineBorder(new Color(0, 0, 0), 5, true));
 		panel.add(panel_5);
 		panel_5.setLayout(new BorderLayout(0, 0));
 		
 		JPanel panel_6 = new JPanel();
-		panel_6.setBorder(new LineBorder(new Color(0, 0, 0), 2, true));
+		panel_6.setBorder(new LineBorder(new Color(0, 0, 0), 5, true));
 		panel.add(panel_6);
 		panel_6.setLayout(new BorderLayout(0, 0));
 		
 		JPanel panel_7 = new JPanel();
-		panel_7.setBorder(new LineBorder(new Color(0, 0, 0), 2, true));
+		panel_7.setBorder(new LineBorder(new Color(0, 0, 0), 5, true));
 		panel.add(panel_7);
 		panel_7.setLayout(new BorderLayout(0, 0));
 		
 		JPanel panel_8 = new JPanel();
-		panel_8.setBorder(new LineBorder(new Color(0, 0, 0), 2, true));
+		panel_8.setBorder(new LineBorder(new Color(0, 0, 0), 5, true));
 		panel.add(panel_8);
 		panel_8.setLayout(new BorderLayout(0, 0));
 		
 		JPanel panel_9 = new JPanel();
 		panel.add(panel_9);
-		panel_9.setBorder(new LineBorder(new Color(0, 0, 0), 2, true));
+		panel_9.setBorder(new LineBorder(new Color(0, 0, 0), 5, true));
 		panel_9.setLayout(new BorderLayout(0, 0));
 		
 		JPanel panel_10 = new JPanel();
