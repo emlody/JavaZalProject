@@ -68,15 +68,15 @@ public class JavaZalProject {
 		panel.add(panel_3);
 		panel_3.setLayout(new BorderLayout(0, 0));
 		
-		JPanel panel_5 = new JPanel();
-		panel_5.setBorder(new LineBorder(new Color(0, 0, 0), 2, true));
-		panel.add(panel_5);
-		panel_5.setLayout(new BorderLayout(0, 0));
-		
 		JPanel panel_4 = new JPanel();
 		panel_4.setBorder(new LineBorder(new Color(0, 0, 0), 2, true));
 		panel.add(panel_4);
 		panel_4.setLayout(new BorderLayout(0, 0));
+		
+		JPanel panel_5 = new JPanel();
+		panel_5.setBorder(new LineBorder(new Color(0, 0, 0), 2, true));
+		panel.add(panel_5);
+		panel_5.setLayout(new BorderLayout(0, 0));
 		
 		JPanel panel_6 = new JPanel();
 		panel_6.setBorder(new LineBorder(new Color(0, 0, 0), 2, true));
@@ -88,20 +88,20 @@ public class JavaZalProject {
 		panel.add(panel_7);
 		panel_7.setLayout(new BorderLayout(0, 0));
 		
-		JPanel panel_10 = new JPanel();
-		panel_10.setBorder(new LineBorder(new Color(0, 0, 0), 2, true));
-		panel.add(panel_10);
-		panel_10.setLayout(new BorderLayout(0, 0));
-		
-		JPanel panel_9 = new JPanel();
-		panel_9.setBorder(new LineBorder(new Color(0, 0, 0), 2, true));
-		panel.add(panel_9);
-		panel_9.setLayout(new BorderLayout(0, 0));
-		
 		JPanel panel_8 = new JPanel();
 		panel_8.setBorder(new LineBorder(new Color(0, 0, 0), 2, true));
 		panel.add(panel_8);
 		panel_8.setLayout(new BorderLayout(0, 0));
+		
+		JPanel panel_9 = new JPanel();
+		panel.add(panel_9);
+		panel_9.setBorder(new LineBorder(new Color(0, 0, 0), 2, true));
+		panel_9.setLayout(new BorderLayout(0, 0));
+		
+		JPanel panel_10 = new JPanel();
+		panel_10.setBorder(new LineBorder(new Color(0, 0, 0), 2, true));
+		panel.add(panel_10);
+		panel_10.setLayout(new BorderLayout(0, 0));
 		
 		JPanel panel_11 = new JPanel();
 		panel_11.setBorder(new LineBorder(new Color(0, 0, 0), 2, true));
