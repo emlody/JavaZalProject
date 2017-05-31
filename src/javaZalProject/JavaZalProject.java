@@ -20,6 +20,11 @@ import java.awt.Font;
 public class JavaZalProject {
 
 	private JFrame frame;
+	
+	private String startGry = "X";
+	private int licznikX = 0;
+	private int licznikY = 0;
+	
 
 	/**
 	 * Launch the application.
