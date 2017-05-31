@@ -82,6 +82,12 @@ public class JavaZalProject {
 		String b7 = btn7.getText();
 		String b8 = btn8.getText();
 		String b9 = btn9.getText();
+		
+		if (b1 == "X" && b2 =="X" && b3 == "X")
+		{
+			JOptionPane.showMessageDialog(frame, "Gracz X wygrywa !","Kólko i krzy¿yk",JOptionPane.INFORMATION_MESSAGE);
+			licznikX++;
+		}
 	}
 	
 	/**
