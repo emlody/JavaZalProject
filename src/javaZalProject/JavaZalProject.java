@@ -83,6 +83,13 @@ public class JavaZalProject {
 		btn9.setText(null);
 	}
 	 
+	private void wyczyscWynik(){
+		
+		licznikX = 0; 
+		licznikO = 0;
+		txtLicznikO.setText(String.valueOf(licznikO));
+		txtLicznikX.setText(String.valueOf(licznikX));
+	}
 	
 	private void wygranaGra()
 	{	
@@ -525,6 +532,7 @@ public class JavaZalProject {
 		btnReset.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				reset();
+				wyczyscWynik();
 //				btn1.setText(null); 
 //				btn2.setText(null);
 //				btn3.setText(null);
