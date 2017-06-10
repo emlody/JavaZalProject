@@ -38,6 +38,7 @@ public class JavaZalProject {
 				try {
 					JavaZalProject window = new JavaZalProject();
 					window.frame.setVisible(true);
+					window.frame.setLocationRelativeTo(null);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -531,17 +532,11 @@ public class JavaZalProject {
 		JButton btnReset = new JButton("RESET");
 		btnReset.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				reset();
-				wyczyscWynik();
-//				btn1.setText(null); 
-//				btn2.setText(null);
-//				btn3.setText(null);
-//				btn4.setText(null);
-//				btn5.setText(null);
-//				btn6.setText(null);
-//				btn7.setText(null);
-//				btn8.setText(null);
-//				btn9.setText(null);
+				frame = new JFrame("Exit");
+				if (JOptionPane.showConfirmDialog(frame, "Czy na pewno chesz wyzerowaæ wynik ?","Kó³ko i krzy¿yk",JOptionPane.YES_NO_OPTION) == JOptionPane.YES_NO_OPTION) {
+					reset();
+					wyczyscWynik();
+				}
 			}
 		});
 		btnReset.setFont(new Font("Tahoma", Font.ITALIC, 25));
