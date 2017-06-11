@@ -220,6 +220,11 @@ public class JavaZalProject {
 			wynikGry();
 			reset();
 		}
+		if (b1 != null && b2 != null && b3 != null && b4 !=null && b5 !=null && b6 !=null && b7 !=null && b8 !=null && b9 !=null  ){
+			reset();
+		}
+		
+		
 	}
 	
 	/**
